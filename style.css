@@ -1,10 +1,16 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   height: 100vh;
-  background: rgb(2,0,36);
-  background: linear-gradient(164deg, rgba(5, 1, 73, 0.742) 0%, rgba(9,9,121,1) 35%, rgba(8,31,135,1) 67%, rgba(0,212,255,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(164deg, rgba(5, 1, 73, 0.742) 0%, rgba(9, 9, 121, 1) 35%, rgba(8, 31, 135, 1) 67%, rgba(0, 212, 255, 1) 100%);
+}
+
+.card {
+  box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.28);
+  -webkit-box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.28);
+  -moz-box-shadow: 10px 10px 24px -5px rgba(0,0,0,0.28);
 }
