@@ -2,3 +2,9 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  height: 100vh;
+  background: black;
+  background: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%);
+}
